@@ -1,5 +1,7 @@
 # YouTube Video Chatbot
 
+![Youtube Video Chatbot Interface Screenshot](./chatvid.png)
+
 🚀 **YouTube Video Chatbot** is a web-based application that allows users to chat about YouTube videos using an interactive UI powered by **Streamlit** and **ChatGPT**. Users can ask questions, get summaries, and extract key insights from video transcripts.
 
 ## 🔥 Features
@@ -27,19 +29,14 @@ Ensure you have the following installed:
    cd youtube-chatbot
    ```
 
-2. **Install dependencies**:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Set up environment variables**:
+2. **Set up environment variables**:
    Create a `.env` file and add your API keys:
    ```
    OPENAI_API_KEY=your_openai_api_key
    YOUTUBE_API_KEY=your_youtube_api_key
    ```
 
-4. **Run the application**:
+3. **Run the application**:
    ```sh
    streamlit run app.py
    ```
